@@ -7,157 +7,156 @@ local LANG = {}
 
 LANG.code = "en_us"
 
-LANG.Name 		 	= "English" -- example: "Bahasa Indonesia"
-LANG.NameEnglish	= "English" -- Your Language but spoken in English, example: "Indonesian"
-LANG.Author			= "Wolvindra-Vinzuerio, Godfather, Fafy" -- Only accept STRINGS.
+LANG.Name 		 	= "Svenska" -- example: "Bahasa Indonesia"
+LANG.NameEnglish	= "Swedish" -- Your Language but spoken in English, example: "Indonesian"
+LANG.Author			= "Torktumlaren" -- Only accept STRINGS.
 -- Can Accept: String, and Table.
 LANG.AuthorURL		= {	
-	"https://steamcommunity.com/profiles/76561198086789110", 
-	"https://steamcommunity.com/profiles/76561198283562416", 
-	"https://steamcommunity.com/profiles/76561198016233242"
+	"https://steamcommunity.com/id/TRKTML"
 }
 -- Special Section that isn't String-based
 LANG.SUICIDEMSG = {  -- Fix me: there was addition text here but feel free to add more.
-	"suicided!",
-	"died mysteriously.",
-	"died from magic.",
-	"no-scoped themself.",
-	"ragequited.",
-	"is drunk.",
-	"died. Better luck next time!",
-	"slapped themself.",
-	"tripped on a stick.",
-	"died by the force.",
-	"died. pls press F.",
-	"feeling regret after killing some innocent props.",
+	"självmordade!",
+	"dog mystiskt.",
+	"dog av magi.",
+	"no-scopade sig själv.",
+	"ragequittade.",
+	"är full.",
+	"dog. Lycka till nästa gång!",
+	"slog sig själv.",
+	"föll på en pinne.",
+	"dog av kraften.",
+	"dog. Tryck F tack.",
+	"ångrar sig efter att ha dödat några oskyldiga föremål.",
 	"is noclipped to backroom.",
-	"is trying to extinct.",
-	"dieded.",
-	"is panicked therefore trying to kill all props instead.",
-	"stop it, get some help.",
+	"försöker dö ut.",
+	"dogog.",
+	"är panikslagen och försöker döda alla föremål istället.",
+	"sluta, skaffa hjälp.",
 	"ragdolled.",
 }
 LANG.RANDOM_SPECTATORS = {
-	"to watch and chill.",
-	"to see them hanging around.",
-	"to see the things.",
+	"för att titta och slappna av.",
+	"för att se de hänga.",
+	"för at se sakerna.",
 	" ",
 }
 
-LANG["PHX_TEAM_CONNECTING"] = "Connecting"
-LANG["PHX_TEAM_PROPS"]		= "Props"
-LANG["PHX_TEAM_HUNTERS"] 	= "Hunters"
-LANG["PHX_TEAM_UNASSIGNED"]	= "Unassigned"
-LANG["PHX_TEAM_SPECTATOR"] 	= "Spectator"
+LANG["PHX_TEAM_CONNECTING"] = "Ansluter"
+LANG["PHX_TEAM_PROPS"]		= "Föremålen"
+LANG["PHX_TEAM_HUNTERS"] 	= "Jägarna"
+LANG["PHX_TEAM_UNASSIGNED"]	= "Otilldelad"
+LANG["PHX_TEAM_SPECTATOR"] 	= "Åskådare"
 
 -- List of string-based translation
 
 -- // FRETTA SECTION \\
 --  FRETTA: Kill text (X killed Y)
-LANG["HUD_KILLED"]				= "killed"
+LANG["HUD_KILLED"]				= "dödade"
 
 -- FRETTA: HUDs
-LANG["HUD_TIME"] 				= "TIME"
-LANG["HUD_ROUND"]				= "ROUND"
-LANG["HUD_WAITPLY"]				= "Waiting for players..."
-LANG["HUD_DEAD"]				= "(DEAD) "
+LANG["HUD_TIME"] 				= "TID"
+LANG["HUD_ROUND"]				= "RUNDA"
+LANG["HUD_WAITPLY"]				= "Väntar på spelare..."
+LANG["HUD_DEAD"]				= "(DÖD) "
 
-LANG["HUD_TEAMWIN"]				= "%s win!"
-LANG["HUD_LOSE"]				= "Draw, everyone loses!"
-LANG["MISC_TIMELEFT"]			= "Time Left: %s"
-LANG["MISC_GAMEEND"] 			= "Game will end after this round"
+LANG["HUD_TEAMWIN"]				= "%s segrar!"
+LANG["HUD_LOSE"]				= "Oavgjort, alla förlorar!"
+LANG["MISC_TIMELEFT"]			= "Tid kvar: %s"
+LANG["MISC_GAMEEND"] 			= "Spelet slutar efter denna runda"
 
 -- FRETTA: Team selection screen (F2)
-LANG["DERMA_TEAMSELECT"]		= "Choose Team"
+LANG["DERMA_TEAMSELECT"]		= "Välj lag"
 
 -- FRETTA: F1 screeen
-LANG["DERMA_RTV"] 				= "Vote For Change (RTV)"
-LANG["DERMA_PHMENU"] 			= "Prop Hunt Menu"
-LANG["DERMA_CHANGETEAM"]		= "Change Team"
+LANG["DERMA_RTV"] 				= "Rösta på ändring (RTV)"
+LANG["DERMA_PHMENU"] 			= "Föremålsjakt meny"
+LANG["DERMA_CHANGETEAM"]		= "Ändra lag"
 
 -- FRETTA: Scoreboard
-LANG["DERMA_PLAYER"]			= "(%d player)"	
-LANG["DERMA_PLAYERS"]			= "(%d players)"
-LANG["DERMA_NAME"]				= "Name"
-LANG["DERMA_KILLS"]				= "Kills"
-LANG["DERMA_DEATHS"]			= "Deaths"
+LANG["DERMA_PLAYER"]			= "(%d spelare)"	
+LANG["DERMA_PLAYERS"]			= "(%d spelare)"
+LANG["DERMA_NAME"]				= "Namn"
+LANG["DERMA_KILLS"]				= "Mord"
+LANG["DERMA_DEATHS"]			= "Dödsfall"
 LANG["DERMA_PING"]				= "Ping"
-LANG["DERMA_SERVER_TAG"]		= "SV"
-LANG["DERMA_BOT_TAG"]			= "BOT"
+LANG["DERMA_SERVER_TAG"]		= "SV"	-- Fix me
+LANG["DERMA_BOT_TAG"]			= "BOT"	-- Fix me
 LANG["DERMA_GAMEMODE_CREDITS"]	= "%s | Version: %s - Rev. %s"
 
-LANG["CHAT_JOINED"]				= " joined "
-LANG["CHAT_JOINEDTHE"]			= " joined the "
+LANG["CHAT_JOINED"]				= " gick med "
+LANG["CHAT_JOINEDTHE"]			= " gick med i "
 
-LANG["CHAT_SWAPBALANCE"]		= "%s has been changed to %s for team balance."
-LANG["CHAT_SWAPBALANCEYOU"]		= "You were swapped to achieve perfect balance." -- Smile... for even in death, you have become children of Thanos
+LANG["CHAT_SWAPBALANCE"]		= "%s har överförts till %s for lagbalans."
+LANG["CHAT_SWAPBALANCEYOU"]		= "Du har bytt plats för att uppnå perfekt balans." -- Smile... for even in death, you have become children of Thanos
 
 -- FRETTA: Splash Starting Screen
-LANG["SPASHSCREEN_BY_X"]		= "by %s"
+LANG["SPASHSCREEN_BY_X"]		= "av %s"
 -- RichTextBox
-LANG["HELP_DONATORS_AND_CONTRIBUTORS"]  = "\n\nDonators & Contributors:\n- %s"
+LANG["HELP_DONATORS_AND_CONTRIBUTORS"]  = "\n\nDonatorer & Medverkare:\n- %s"
 -- // END OF FRETTA SECTION \\
 
-LANG["HELP_F1"] 				= [[A Prop Hunt X Project.
+LANG["HELP_F1"] 				= [[Ett Prop Hunt X Projekt.
 
-A project to make Prop Hunt be more modern and customisable.
+Ett projekt skapat för att göra Prop Hunt mer modernt och anpassningsbart.
 
-More info can be found at:
+Mer information kan hittas genom länken:
 https://www.buymeacoffee.com/wolvindra
 
 To See more info, help and guide, Press [F1] key and then click [Prop Hunt Menu] button.
+För att få mer information, hjälp, och vägvisning, tryck på [F1] och sedan på [Prop Hunt Meny] knappen.
 
 Version: ]].. PHX.VERSION ..[[ Revision: ]].. PHX.REVISION ..[[
 
-Have Fun!]]
+Ha det kul!]]
 
-LANG["LANGUAGE_CHANGED"]		= "Prefered Language has been changed to %s"
+LANG["LANGUAGE_CHANGED"]		= "Föredraget språk har ändrats till %s"
 
 -- internal cl_menutypes section.
-LANG["SUBTYPE_PREFERED_LANG"]	= "Prefered Language"
+LANG["SUBTYPE_PREFERED_LANG"]	= "Föredraget språk"
 
 -- Events
-LANG["EV_PLAYER_CONNECT"]		= "%s has connected to the server."
-LANG["EV_PLAYER_JOINED"]		= "%s has joined to the server."
-LANG["EV_PLAYER_DISCONNECT"]	= "%s has disconnected from the server (Reason: %s)"
+LANG["EV_PLAYER_CONNECT"]		= "%s har kopplat sig till servern."
+LANG["EV_PLAYER_JOINED"]		= "%s har gått med i servern."
+LANG["EV_PLAYER_DISCONNECT"]	= "%s har kopplat sig från servern (Anledning: %s)"
 
 -- HUD elements
-LANG["HUD_HP"]					= "HEALTH"
-LANG["HUD_AMMO"] 				= "AMMO"
-LANG["HUD_MAGSEC"]				= "MAG. / SEC." --Magazine | Secondary Magazine
+LANG["HUD_HP"]					= "HÄLSA"
+LANG["HUD_AMMO"] 				= "AMMUNTION"
+LANG["HUD_MAGSEC"]				= "MAG. / SEK." --Magazine | Secondary Magazine
 
 -- !!WEAPON NAMES CANNOT BE TRANSLATED, THEY USE FROM language.GetPhrase THEREFORE IT'S IMPOSSIBLE TO DO.
 
 LANG["TEAM_PROPS"]				= LANG["PHX_TEAM_PROPS"] 
 LANG["TEAM_HUNTERS"]			= LANG["PHX_TEAM_HUNTERS"]
 
-LANG["HUD_ROTLOCK"]				= "Prop Rotation: Locked"
-LANG["HUD_ROTFREE"]				= "Prop Rotation: Free"
-LANG["HUD_KILLEDBY"]			= "You were killed by %s"
+LANG["HUD_ROTLOCK"]				= "Föremålsrotation: Låst"
+LANG["HUD_ROTFREE"]				= "Föremålsrotation: Fri"
+LANG["HUD_KILLEDBY"]			= "Du dödades av %s"
 
-LANG["HUD_AUTOTAUNT"]			= "Auto Taunting in %d second(s)"
-LANG["HUD_AUTOTAUNT_ALT"]		= "Auto Taunting in %d"
+LANG["HUD_AUTOTAUNT"]			= "Hånar automatiskt i %d sekund(er)"
+LANG["HUD_AUTOTAUNT_ALT"]		= "Hånar automatiskt i %d"
 
-LANG["HUD_TargetID"]			= "Player: %s (%d%%)"
+LANG["HUD_TargetID"]			= "Spelare: %s (%d%%)"
 
-LANG["HUD_BLINDED"]				= "%s will be unblinded and released in %s"
-LANG["HUD_UNBLINDED"]			= "Ready or not, here we come!"
+LANG["HUD_BLINDED"]				= "%s kommer vara avblindad och släppt i %s"
+LANG["HUD_UNBLINDED"]			= "Redo eller inte, här kommer vi!"
 
-LANG["BLIND_RESPAWN_TEAM"]		= "You were respawned only on %s team in %d seconds during blind time."
-LANG["BLIND_RESPAWN"]			= "You were respawned in %d seconds during blind time."
+LANG["BLIND_RESPAWN_TEAM"]		= "You were respawned only on %s team in %d seconds during blind time."	-- Fix me
+LANG["BLIND_RESPAWN"]			= "You were respawned in %d seconds during blind time."	-- Fix me
 
-LANG["MISC_ACCEPT"]				= "Accept"
+LANG["MISC_ACCEPT"]				= "Acceptera"
 LANG["MISC_OK"]					= "OK"
-LANG["MISC_CLOSE"]				= "Close"
-LANG["MISC_PREV"]				= "< PREVIOUS"
-LANG["MISC_NEXT"]				= "NEXT >"
-LANG["MISC_ACCESSDENIED"]		= "Access Denied"
+LANG["MISC_CLOSE"]				= "Stäng"
+LANG["MISC_PREV"]				= "< FÖREGÅENDE"
+LANG["MISC_NEXT"]				= "NÄSTA >"
+LANG["MISC_ACCESSDENIED"]		= "Tillkomst Nekad"
 
 -- Chat messages
-LANG["CHAT_NOPLAYERS"]			= "There's not enough players to start the game!"
-LANG["CHAT_SWAP"]				= "Teams have been swapped!"
+LANG["CHAT_NOPLAYERS"]			= "Det finns inte nog med spelare för att påbörja spelet!"
+LANG["CHAT_SWAP"]				= "Lagen har vänt på sig!"	-- Fix me
 
-LANG["CHAT_SWAPTEAM_WARNING"]   = "You have switched teams %dx (%dx MAX). After that, You can no longer switch to opposite team."
+LANG["CHAT_SWAPTEAM_WARNING"]   = "You have switched teams %dx (%dx MAX). After that, You can no longer switch to opposite team." -- Fix me
 LANG["CHAT_SWAPTEAM_REVERT"]	= "Cannot switch to team %s because you have exceeded the number of team changes."
 
 LANG["CHAT_PROP_NO_ROOM"] 		= "There is no room to change for that prop!"
@@ -175,50 +174,50 @@ LANG["TM_WINDOW_TITLE"]			= "Prop Hunt Custom Taunt Window"
 LANG["TM_NOTICE_PLSWAIT"]		= "Please wait in %s sec(s) before random taunt ends!"
 LANG["TM_NOTICE_PLAYPREVIEW"]	= "Previewing Taunt: %s"
 
-LANG["TM_TOOLTIP_PLAYTAUNT"] 	= "Play Taunt"
-LANG["TM_TOOLTIP_PREVIEW"]		= "Preview Taunt"
-LANG["TM_TOOLTIP_PLAYCLOSE"]	= "Play Taunt and Close"
-LANG["TM_TOOLTIP_PLAYRANDOM"]	= "Play Random Taunt"
-LANG["TM_TOOLTIP_CLOSE"]		= "Close"
-LANG["TM_MENU_CLOSE"]			= "Close Menu"
+LANG["TM_TOOLTIP_PLAYTAUNT"] 	= "Spela Upp Hån"
+LANG["TM_TOOLTIP_PREVIEW"]		= "Förhandsvisa Hån"
+LANG["TM_TOOLTIP_PLAYCLOSE"]	= "Spela Upp Hån och Stäng"
+LANG["TM_TOOLTIP_PLAYRANDOM"]	= "Spela Upp Slumpmässigt Hån"
+LANG["TM_TOOLTIP_CLOSE"]		= "Stäng"
+LANG["TM_MENU_CLOSE"]			= "Stäng Meny"
 
-LANG["TM_DELAYTAUNT_NOT_EXIST"] = "The taunt you were selected wasn't found in server!"
-LANG["TM_DELAYTAUNT_PLSWAIT"]	= "Please wait in %s second(s)!"
+LANG["TM_DELAYTAUNT_NOT_EXIST"] = "Hånet du valde hittades inte på servern!"
+LANG["TM_DELAYTAUNT_PLSWAIT"]	= "Var snäll vänta %s sekund(er)!"
 
 --[[
 	PHX Menu window
 ]]
-LANG["PHXM_WINDOW_TITLE"]		= "Prop Hunt X - Advanced Setting & Menu"
-LANG["SERVER_INFO_MOTD"]		= "SERVER INFORMATION & RULES [MOTD]"
+LANG["PHXM_WINDOW_TITLE"]		= "Prop Hunt X - Avancerade Alternativ & Meny"
+LANG["SERVER_INFO_MOTD"]		= "SERVER INFORMATION & REGLER [MOTD]"
 
-LANG["PHXM_TAB_HELP"]			= "Help & Guide"
-LANG["PHXM_TAB_MUTE"]			= "Player Muting"
-LANG["PHXM_TAB_PLAYER"]			= "Player Settings"
-LANG["PHXM_TAB_MODEL"] 			= "Model Browser"
-LANG["PHXM_TAB_MODEL_DISABLED"]	= "Model Browser (Disabled)"
-LANG["PHXM_TAB_ADMIN"]			= "Admin Settings"
-LANG["PHXM_TAB_ABOUT"]			= "About PH:X"
-LANG["PHXM_TAB_MAPVOTE"]		= "MapVote"
-LANG["PHXM_TAB_PLUGINS"]		= "Addons/Plugins"
+LANG["PHXM_TAB_HELP"]			= "Hjälp & Vägledning"
+LANG["PHXM_TAB_MUTE"]			= "Skruva Ner Spelare"
+LANG["PHXM_TAB_PLAYER"]			= "Spelarinställningar"
+LANG["PHXM_TAB_MODEL"] 			= "Bläddra Modeller"
+LANG["PHXM_TAB_MODEL_DISABLED"]	= "Bläddra Modeller (Inaktiverad)"
+LANG["PHXM_TAB_ADMIN"]			= "Administratörsinställningar"
+LANG["PHXM_TAB_ABOUT"]			= "Om PH:X"
+LANG["PHXM_TAB_MAPVOTE"]		= "Kartröstning"
+LANG["PHXM_TAB_PLUGINS"]		= "Tillägg/Plugins"
 
-LANG["PHXM_CVAR_CHANGED"]		= "[Settings] CVar %q has been changed to %q"
+LANG["PHXM_CVAR_CHANGED"]		= "[Inställningar] CVar %q har ändrats till %q"
 
 --[[
 	Player Mute Settings
 ]]
-LANG["PHXM_MUTE_SELECT"]		= "Select any player that you want to mute."
+LANG["PHXM_MUTE_SELECT"]		= "Välj spelare som du vill dämpa."
 
 --[[ 
 	Player Settings
 ]]
-LANG["PHXM_PLAYER_OPTIONS"]		= "Player Options"
-LANG["PHXM_PLAYER_LANG"]		= "Languages"
-LANG["PHXM_PLAYER_BIND"]		= "Binds"
-LANG["PHXM_PLAYER_HUDSETTINGS"]	= "HUD Settings"
+LANG["PHXM_PLAYER_OPTIONS"]		= "Spelarvälmöjligheter"	-- Fix me
+LANG["PHXM_PLAYER_LANG"]		= "Språk"
+LANG["PHXM_PLAYER_BIND"]		= "Kortkommandon"
+LANG["PHXM_PLAYER_HUDSETTINGS"]	= "HUD-inställningar"
 
-LANG["PHXM_PLAYER_TAUNT_KEY"]			= "Random Taunt Key"
-LANG["PHXM_PLAYER_TAUNTWINDOW_KEY"]		= "Taunt Menu Key"
-LANG["PHXM_PLAYER_ROTATLOCK_KEY"]		= "Rotation Lock Key"
+LANG["PHXM_PLAYER_TAUNT_KEY"]			= "Slumpmässigt Hån Knapp"
+LANG["PHXM_PLAYER_TAUNTWINDOW_KEY"]		= "Hånmeny Knapp"
+LANG["PHXM_PLAYER_ROTATLOCK_KEY"]		= "Rotationslås Knapp"
 
 LANG["PHXM_PLAYER_TOGGLE_HALOS"]		= "Toggle Halo effect when choosing a prop"
 LANG["PHXM_PLAYER_IDNAMES"]				= "Show Team players names' above their heads instead (and appear through wall too)"
