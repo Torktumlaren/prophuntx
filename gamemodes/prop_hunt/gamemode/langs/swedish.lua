@@ -1,7 +1,6 @@
 -- Kindly free to improve the language.
 
--- Originally written by: Fafy
--- Improved by Wolvindra-Vinzuerio & Godfather
+-- Originally written by: Torktumlaren
 
 local LANG = {}
 
@@ -156,7 +155,7 @@ LANG["MISC_ACCESSDENIED"]		= "Tillkomst Nekad"
 LANG["CHAT_NOPLAYERS"]			= "Det finns inte nog med spelare för att påbörja spelet!"
 LANG["CHAT_SWAP"]				= "Lagen har vänt på sig!"	-- Fix me
 
-LANG["CHAT_SWAPTEAM_WARNING"]   = "You have switched teams %dx (%dx MAX). After that, You can no longer switch to opposite team." -- Fix me
+LANG["CHAT_SWAPTEAM_WARNING"]   = "You have switched teams %dx (%dx MAX). After that, You can no longer switch to opposite team." -- Fix me -----------------
 LANG["CHAT_SWAPTEAM_REVERT"]	= "Cannot switch to team %s because you have exceeded the number of team changes."
 
 LANG["CHAT_PROP_NO_ROOM"] 		= "There is no room to change for that prop!"
@@ -210,27 +209,27 @@ LANG["PHXM_MUTE_SELECT"]		= "Välj spelare som du vill dämpa."
 --[[ 
 	Player Settings
 ]]
-LANG["PHXM_PLAYER_OPTIONS"]		= "Spelarvälmöjligheter"	-- Fix me
+LANG["PHXM_PLAYER_OPTIONS"]		= "Alternativ för spelare"
 LANG["PHXM_PLAYER_LANG"]		= "Språk"
 LANG["PHXM_PLAYER_BIND"]		= "Kortkommandon"
 LANG["PHXM_PLAYER_HUDSETTINGS"]	= "HUD-inställningar"
 
-LANG["PHXM_PLAYER_TAUNT_KEY"]			= "Slumpmässigt Hån Knapp"
-LANG["PHXM_PLAYER_TAUNTWINDOW_KEY"]		= "Hånmeny Knapp"
-LANG["PHXM_PLAYER_ROTATLOCK_KEY"]		= "Rotationslås Knapp"
+LANG["PHXM_PLAYER_TAUNT_KEY"]			= "Knapp för Slumpmässigt Hån"
+LANG["PHXM_PLAYER_TAUNTWINDOW_KEY"]		= "Knapp för Hånmeny"
+LANG["PHXM_PLAYER_ROTATLOCK_KEY"]		= "Knapp för Rotationslås"
 
-LANG["PHXM_PLAYER_TOGGLE_HALOS"]		= "Toggle Halo effect when choosing a prop"
-LANG["PHXM_PLAYER_IDNAMES"]				= "Show Team players names' above their heads instead (and appear through wall too)"
-LANG["PHXM_PLAYER_ENDROUND_CUE"]		= "Play End round sound cue"
-LANG["PHXM_PLAYER_TAUNTMENU_AUTOCLOSE"]	= "Option for Auto closing for Taunt window when double-clicking them"
-LANG["PHXM_PLAYER_SEE_HUNTER_LINE"]		= "Draw a line on hunters so we can see their aim in spectator mode."
-LANG["PHXM_PLAYER_SEE_LBALL_ICONS"]		= "Enable 'Lucky ball' icon to be displayed once they are spawned"
-LANG["PHXM_PLAYER_SEE_CRYSTAL_ICONS"]	= "Enable 'Devil ball' icon to be displayed once they are spawned"
+LANG["PHXM_PLAYER_TOGGLE_HALOS"]		= "Växla ljusringseffekt när du väljer föremål"
+LANG["PHXM_PLAYER_IDNAMES"]				= "Visa lagspelares namn ovanför deras huvuden istället (och visa även genom väggen)"
+LANG["PHXM_PLAYER_ENDROUND_CUE"]		= "Spela upp ljud för rundavslut"
+LANG["PHXM_PLAYER_TAUNTMENU_AUTOCLOSE"]	= "Alternativ for att stänga hånmeny automatiskt när man dubbelklickar."
+LANG["PHXM_PLAYER_SEE_HUNTER_LINE"]		= "Rita en linje på jägare så man kan se deras synriktning i åskådarläge."
+LANG["PHXM_PLAYER_SEE_LBALL_ICONS"]		= "Aktivera 'Turboll' ikon för visning när de väl spawnar" -- Fix me Spawn: Ynglar?
+LANG["PHXM_PLAYER_SEE_CRYSTAL_ICONS"]	= "Aktivera 'Djävulsboll' ikon för visning när de väl spawnar"
 
-LANG["PHXM_PLAYER_USE_NEW_HUD"]			= "Use New PH: Enhanced HUD"
-LANG["PHXM_PLAYER_SHOW_TUTOR"]			= "Show Tutorial Pop-up (Shown only 2x on each prop spawns)"
-LANG["PHXM_PLAYER_USE_NEW_CROSSHAIR"]	= "Enable Custom Crosshair"
-LANG["PHXM_PLAYER_SHOW_TEAM_TOPBAR"]	= "Show total alive team players bar on the top left (At least 4 Players will be shown)"
+LANG["PHXM_PLAYER_USE_NEW_HUD"]			= "Använd Nya PH: Förbättrad HUD"
+LANG["PHXM_PLAYER_SHOW_TUTOR"]			= "Visa genomgångsruta (Visas endast 2x för varje föremål som spawnar)"
+LANG["PHXM_PLAYER_USE_NEW_CROSSHAIR"]	= "Aktivera Specialgjord Hårkors" -- Fix me Custom: Specialgjord/Egengjord?
+LANG["PHXM_PLAYER_SHOW_TEAM_TOPBAR"]	= "Visa antal levande lagmedlemmar längst upp til vänster (åtminstone 4 spelare kommer visas)"
 
 --[[
 	Player model Browser Section
