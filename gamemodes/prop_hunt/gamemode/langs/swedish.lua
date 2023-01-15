@@ -69,7 +69,7 @@ LANG["DERMA_TEAMSELECT"]		= "Välj lag"
 
 -- FRETTA: F1 screeen
 LANG["DERMA_RTV"] 				= "Rösta på ändring (RTV)"
-LANG["DERMA_PHMENU"] 			= "Föremålsjakt meny"
+LANG["DERMA_PHMENU"] 			= "Prop Hunt meny"
 LANG["DERMA_CHANGETEAM"]		= "Ändra lag"
 
 -- FRETTA: Scoreboard
@@ -102,7 +102,6 @@ Ett projekt skapat för att göra Prop Hunt mer modernt och anpassningsbart.
 Mer information kan hittas genom länken:
 https://www.buymeacoffee.com/wolvindra
 
-To See more info, help and guide, Press [F1] key and then click [Prop Hunt Menu] button.
 För att få mer information, hjälp, och vägvisning, tryck på [F1] och sedan på [Prop Hunt Meny] knappen.
 
 Version: ]].. PHX.VERSION ..[[ Revision: ]].. PHX.REVISION ..[[
@@ -141,8 +140,8 @@ LANG["HUD_TargetID"]			= "Spelare: %s (%d%%)"
 LANG["HUD_BLINDED"]				= "%s kommer vara avblindad och släppt i %s"
 LANG["HUD_UNBLINDED"]			= "Redo eller inte, här kommer vi!"
 
-LANG["BLIND_RESPAWN_TEAM"]		= "You were respawned only on %s team in %d seconds during blind time."	-- Fix me
-LANG["BLIND_RESPAWN"]			= "You were respawned in %d seconds during blind time."	-- Fix me
+LANG["BLIND_RESPAWN_TEAM"]		= "Du återupplivades endast på %ss lag %d sekund(er) in i bindeltiden"
+LANG["BLIND_RESPAWN"]			= "Du återupplivades %d sekund(er) in i bindeltiden"
 
 LANG["MISC_ACCEPT"]				= "Acceptera"
 LANG["MISC_OK"]					= "OK"
@@ -153,25 +152,25 @@ LANG["MISC_ACCESSDENIED"]		= "Tillkomst Nekad"
 
 -- Chat messages
 LANG["CHAT_NOPLAYERS"]			= "Det finns inte nog med spelare för att påbörja spelet!"
-LANG["CHAT_SWAP"]				= "Lagen har vänt på sig!"	-- Fix me
+LANG["CHAT_SWAP"]				= "Lagen har bytt!"
 
-LANG["CHAT_SWAPTEAM_WARNING"]   = "You have switched teams %dx (%dx MAX). After that, You can no longer switch to opposite team." -- Fix me -----------------
-LANG["CHAT_SWAPTEAM_REVERT"]	= "Cannot switch to team %s because you have exceeded the number of team changes."
+LANG["CHAT_SWAPTEAM_WARNING"]   = "Du har bytt lag %dx (%dx MAX). Efter det kan du inte längre byta lag."
+LANG["CHAT_SWAPTEAM_REVERT"]	= "Du kan inte längre byta till %s, då du har överskridit antalet lagbyten."
 
-LANG["CHAT_PROP_NO_ROOM"] 		= "There is no room to change for that prop!"
+LANG["CHAT_PROP_NO_ROOM"] 		= "Det finns inget utrymme att ändra till det föremålet!"
 
 -- Notification
-LANG["NOTIFY_IN_PROP_TEAM"]		= "You are in Prop Team with Rotate support! You can rotate prop around by moving your mouse."
-LANG["NOTIFY_ROTATE_NOTICE"]	= "Additionally you can toggle lock rotation by pressing (by default) [R] key!"
+LANG["NOTIFY_IN_PROP_TEAM"]		= "Du är i föremålslaget och kan rotera! Du roterar föremålet genom att röra på musen."
+LANG["NOTIFY_ROTATE_NOTICE"]	= "Dessutom kan du växla rotationslås genom att trycka på [R] knappen (vanliga nyckelbindningar)"
 
 -- Custom Taunt Window
-LANG["TM_WARNING_CT_DISABLE"]	= "[PHX - Taunts] Warning: This server has custom taunts disabled."
-LANG["TM_NO_TAUNTS"]			= "Warning: No taunts were detected in this category."
-LANG["TM_PLAY_ONLY_ALIVE"] 		= "You are only allowed to play Custom Taunts when you're alive."
+LANG["TM_WARNING_CT_DISABLE"]	= "[PHX - Hån] Varning: Denna servern har stängt av anpassade hån." -- Fix me anpassade hån?
+LANG["TM_NO_TAUNTS"]			= "Varning: Inga hån hittades i denna kategorin."
+LANG["TM_PLAY_ONLY_ALIVE"] 		= "Du får endast spela anpassade hån när du lever."
 
-LANG["TM_WINDOW_TITLE"]			= "Prop Hunt Custom Taunt Window"
-LANG["TM_NOTICE_PLSWAIT"]		= "Please wait in %s sec(s) before random taunt ends!"
-LANG["TM_NOTICE_PLAYPREVIEW"]	= "Previewing Taunt: %s"
+LANG["TM_WINDOW_TITLE"]			= "Prop Hunt Fönstret för anpassade hån"
+LANG["TM_NOTICE_PLSWAIT"]		= "Please wait in %s sec(s) before random taunt ends!" "Var snäll vänta %s sekund(er) tills slumpmässigt hån avslutas!"
+LANG["TM_NOTICE_PLAYPREVIEW"]	= "Förhandsvisar Hån: %s"
 
 LANG["TM_TOOLTIP_PLAYTAUNT"] 	= "Spela Upp Hån"
 LANG["TM_TOOLTIP_PREVIEW"]		= "Förhandsvisa Hån"
@@ -181,7 +180,7 @@ LANG["TM_TOOLTIP_CLOSE"]		= "Stäng"
 LANG["TM_MENU_CLOSE"]			= "Stäng Meny"
 
 LANG["TM_DELAYTAUNT_NOT_EXIST"] = "Hånet du valde hittades inte på servern!"
-LANG["TM_DELAYTAUNT_PLSWAIT"]	= "Var snäll vänta %s sekund(er)!"
+LANG["TM_DELAYTAUNT_PLSWAIT"]	= "Var snäll vänta %s sekund(er) till!"
 
 --[[
 	PHX Menu window
@@ -223,44 +222,44 @@ LANG["PHXM_PLAYER_IDNAMES"]				= "Visa lagspelares namn ovanför deras huvuden i
 LANG["PHXM_PLAYER_ENDROUND_CUE"]		= "Spela upp ljud för rundavslut"
 LANG["PHXM_PLAYER_TAUNTMENU_AUTOCLOSE"]	= "Alternativ for att stänga hånmeny automatiskt när man dubbelklickar."
 LANG["PHXM_PLAYER_SEE_HUNTER_LINE"]		= "Rita en linje på jägare så man kan se deras synriktning i åskådarläge."
-LANG["PHXM_PLAYER_SEE_LBALL_ICONS"]		= "Aktivera 'Turboll' ikon för visning när de väl spawnar" -- Fix me Spawn: Ynglar?
+LANG["PHXM_PLAYER_SEE_LBALL_ICONS"]		= "Aktivera 'Turboll' ikon för visning när de väl upplivas"
 LANG["PHXM_PLAYER_SEE_CRYSTAL_ICONS"]	= "Aktivera 'Djävulsboll' ikon för visning när de väl spawnar"
 
 LANG["PHXM_PLAYER_USE_NEW_HUD"]			= "Använd Nya PH: Förbättrad HUD"
 LANG["PHXM_PLAYER_SHOW_TUTOR"]			= "Visa genomgångsruta (Visas endast 2x för varje föremål som spawnar)"
-LANG["PHXM_PLAYER_USE_NEW_CROSSHAIR"]	= "Aktivera Specialgjord Hårkors" -- Fix me Custom: Specialgjord/Egengjord?
+LANG["PHXM_PLAYER_USE_NEW_CROSSHAIR"]	= "Aktivera Anpassat Hårkors"
 LANG["PHXM_PLAYER_SHOW_TEAM_TOPBAR"]	= "Visa antal levande lagmedlemmar längst upp til vänster (åtminstone 4 spelare kommer visas)"
 
 --[[
 	Player model Browser Section
 ]]
-LANG["QUERY_MODEL_SELECTED"]	= "Model %s has been selected and it will be applied after respawn!"
-LANG["QUERY_MODEL_INFO"]		= "Model name: %s - Available for: Everyone"
+LANG["QUERY_MODEL_SELECTED"]	= "Modell %s har valts och den kommer tillämpas efter återupplivelsen!"
+LANG["QUERY_MODEL_INFO"]		= "Modellnamn: %s - Tillgänglig för: Alla"
 
-LANG["MDL_MENU_REFRESH"] 		= "Refresh Icon"
-LANG["MDL_MENU_PREVIEW"] 		= "Preview Model"
-LANG["MDL_MENU_MODELINFO"] 		= "Model Information"
+LANG["MDL_MENU_REFRESH"] 		= "Uppdatera Ikon"
+LANG["MDL_MENU_PREVIEW"] 		= "Förhandsvisa Modell"
+LANG["MDL_MENU_MODELINFO"] 		= "Modellinformation"
 
 
-LANG["MISC_APPLYMDL"] 			= "Apply Model"
+LANG["MISC_APPLYMDL"] 			= "Tillämpa Modell"
 
-LANG["PHXM_MODEL_DISABLED"] 	= "Sorry, Custom Player Models are disabled on this server!"
-LANG["PHXM_PLAYERMODEL_SETFOV"]	= "  Set Model FOV"
+LANG["PHXM_MODEL_DISABLED"] 	= "Förlåt, men anpassade modeller har stängts av på denna servern!"
+LANG["PHXM_PLAYERMODEL_SETFOV"]	= "  Anpassa Modellsynfält"
 
 --[[
 	Server Settings
 ]]
-LANG["PHXM_ADMIN_OPTIONS"]		= "Serverside gamemode Options (Only visible for Admins/Owner)"
-LANG["PHXM_ADMIN_MUSTALIVE"]	= "You must be alive in order to do this operation."
+LANG["PHXM_ADMIN_OPTIONS"]		= "Inställningar för spelläge på serversidan (Endast synlig för Administratörer/Ägare)"
+LANG["PHXM_ADMIN_MUSTALIVE"]	= "Du måsta vara levande för att utföra denna handlingen."
 
 --[[
 	Language Override
 ]]
-LANG["PHXM_ADMIN_LANGOVERRIDE"]	= "Language Override"
+LANG["PHXM_ADMIN_LANGOVERRIDE"]	= "Språksöverstyrning"
 
-LANG["PHXM_ADMIN_FORCELANG"] 				= "Use forced language? This will override client language to use Server's choosen language."
-LANG["PHXM_ADMIN_LANGTOUSE"]				= "Forced Language to use."
-LANG["PHXM_ADMIN_PLAYERDEFAULTLANG"] 		= "Default player language when joining on first time play."
+LANG["PHXM_ADMIN_FORCELANG"] 				= "Använd tvingat språk? Detta överstyr klientspråket till att använda serverns valda språk." -- Fix me
+LANG["PHXM_ADMIN_LANGTOUSE"]				= "Tvingat språk som ska användas."
+LANG["PHXM_ADMIN_PLAYERDEFAULTLANG"] 		= "Standardspråk för förstagångsspelare."
 
 -- Gameplay settings
 LANG["PHXM_ADMIN_CUSTOM_MODEL"]				= "Enable custom models for Hunters. This will enable [Model Browser] tab."
