@@ -262,12 +262,12 @@ LANG["PHXM_ADMIN_LANGTOUSE"]				= "Tvingat språk som ska användas."
 LANG["PHXM_ADMIN_PLAYERDEFAULTLANG"] 		= "Standardspråk för förstagångsspelare."
 
 -- Gameplay settings
-LANG["PHXM_ADMIN_CUSTOM_MODEL"]				= "Enable custom models for Hunters. This will enable [Model Browser] tab."
-LANG["PHXM_ADMIN_CUSTOM_MODEL_PROP"]		= "Enable custom models for Props (Require Hunter Custom Models to be enabled)"
-LANG["PHXM_ADMIN_TAUNT_DELAY_CUSTOM"]		= "Custom Taunts Delay (Seconds)"
-LANG["PHXM_ADMIN_TAUNT_DELAY_RANDOM"]		= "Normal Taunts Delay (Seconds)"
-LANG["PHXM_ADMIN_TAUNT_DELAY_AUTO"]			= "Auto Taunts Delay (Seconds)"
-LANG["PHXM_ADMIN_AUTOTAUNT_ENABLE"]			= "Enable Auto Taunt Features (Proper Timer will be fixed on next round)"
+LANG["PHXM_ADMIN_CUSTOM_MODEL"]				= "Använd anpassade modeller för jägare. Detta tillämpar [Modellbläddrare] -fliken."
+LANG["PHXM_ADMIN_CUSTOM_MODEL_PROP"]		= "Använd tillämpade modeller för föremål (Kräver att anpassade jägarmodeller är aktiverat)"
+LANG["PHXM_ADMIN_TAUNT_DELAY_CUSTOM"]		= "Anpassad hånfördröjning (Sekunder)"
+LANG["PHXM_ADMIN_TAUNT_DELAY_RANDOM"]		= "Normal hånfördröjning (Sekunder)"
+LANG["PHXM_ADMIN_TAUNT_DELAY_AUTO"]			= "Automatisk hånfördröjning (Sekunder)" -- fix all pls
+LANG["PHXM_ADMIN_AUTOTAUNT_ENABLE"]			= "Använd automatiska hånfunktioner (Timer fixas nästa runda)"
 
 LANG["PHXM_ADMIN_NOTICE_ROTATION"]			= "Display 'Prop Rotation' notification on every Prop Spawns"
 LANG["PHXM_ADMIN_CAMERA_COLLIDE"]			= "Enable Prop Camera collision to the wall"
